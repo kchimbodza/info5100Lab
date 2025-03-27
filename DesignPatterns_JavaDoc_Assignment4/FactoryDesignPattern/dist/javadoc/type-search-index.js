@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"factorydesignpattern","l":"Circle"},{"p":"factorydesignpattern","l":"FactoryPatternDemo"},{"p":"factorydesignpattern","l":"Rectangle"},{"p":"factorydesignpattern","l":"Shape"},{"p":"factorydesignpattern","l":"ShapeFactory"},{"p":"factorydesignpattern","l":"Square"}];updateSearchResults();
