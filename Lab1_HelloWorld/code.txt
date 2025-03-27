@@ -1,0 +1,38 @@
+public class Multithreading {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //create first thread
+        Threads1 t1 = new Threads1();
+        t1.start();
+        
+        Threads2 t2 = new Threads2();
+        t2.start();
+    }
+    
+}
+
+public class Threads1 extends Thread {
+    @Override
+    public void run()
+    {
+        for(int i = 0; i <= 1000; i++)
+        {
+            System.out.println(i);
+        }  
+    }
+}
+
+public class Threads2 extends Thread {
+     @Override
+    public void run()
+    {
+        for(int i = 1001; i <= 2000; i++)
+        {
+            System.out.println(i);
+        }
+    
+    }
+}
